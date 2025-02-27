@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8045070617026481758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Hierophant
+  Text: Need thou some guidance?
+  guid: da9a9f28b468ed44eb91e819594ab04c
+  position: {x: 271.99997, y: -0.0000059604645}
+  child: {fileID: -3474645892042582166}
+--- !u!114 &-7372701674899731117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Hierophant
+  Text: will see thou through this.
+  guid: 4fe93ee0080e3b541a5e6bd208bfcb95
+  position: {x: 839.85004, y: 6.999964}
+  child: {fileID: 0}
+--- !u!114 &-3580889846015497227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: Hierophant
+  Text: Greetings, mine young prince,
+  guid: a415bea057c02c344b0b8487cfc81ae6
+  position: {x: -33.02126, y: -0.0000059604645}
+  child: {fileID: 6977598361417729438}
+--- !u!114 &-3474645892042582166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Hierophant
+  Text: . . .
+  guid: 999ffff0cefc5fd469297d9af8545fb3
+  position: {x: 403.15, y: 0.000008583069}
+  child: {fileID: 1406138405765603195}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: HierophantTestDialogue1
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -3580889846015497227}
+  dialogues:
+  - {fileID: -3580889846015497227}
+  - {fileID: 6977598361417729438}
+  - {fileID: -8045070617026481758}
+  - {fileID: -3474645892042582166}
+  - {fileID: 5866691270502228896}
+  - {fileID: 1406138405765603195}
+  - {fileID: -7372701674899731117}
+--- !u!114 &1406138405765603195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Hierophant
+  Text: Invert this world's state.
+  guid: 4a9392bcada06ca4cbbab79623b33003
+  position: {x: 540.00006, y: 6.99999}
+  child: {fileID: 5866691270502228896}
+--- !u!114 &5866691270502228896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Hierophant
+  Text: The power within the cards,
+  guid: 751ebaaf81412534194f97a22134866c
+  position: {x: 678, y: 7}
+  child: {fileID: -7372701674899731117}
+--- !u!114 &6977598361417729438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Hierophant
+  Text: I am humbled by thy grace,
+  guid: 2036a19c1c5224641a402a95b5fbf6f5
+  position: {x: 151, y: 0.000009536743}
+  child: {fileID: -8045070617026481758}

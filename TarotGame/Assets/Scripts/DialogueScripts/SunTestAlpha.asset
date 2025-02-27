@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-527275042399027640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: Oh you're back, hooray!
+  guid: 907c85211b8e51c4fb2444c4013f2822
+  position: {x: -1.3224905, y: 0.00000071525574}
+  child: {fileID: 2566770660540165246}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: SunTestAlpha
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -527275042399027640}
+  dialogues:
+  - {fileID: -527275042399027640}
+  - {fileID: 5815775983552112868}
+  - {fileID: 2566770660540165246}
+--- !u!114 &2566770660540165246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: Now we can properly depart with a laugh!
+  guid: 1473a57809ced54488e767f518f71706
+  position: {x: 202, y: 0.000018119812}
+  child: {fileID: 5815775983552112868}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &5815775983552112868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: Eh hee hee!
+  guid: 89355a55fded2ff4a97d2a166a5a52fb
+  position: {x: 367.19995, y: 0}
+  child: {fileID: 0}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest

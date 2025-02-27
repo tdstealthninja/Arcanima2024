@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9122813797232127173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: Do your best.
+  guid: 055fc67ba4ea06f42abcb360fb6adc63
+  position: {x: 1539.3225, y: -0.000032100677}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &-6071351623321044081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: I hope you feel better . . .
+  guid: 25bdf6efc97afc848bebbd1f41683c35
+  position: {x: 1130.71, y: 0.000008821487}
+  child: {fileID: -2727997607244831800}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &-4253174223567326203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: . . .
+  guid: 4e923221039ed954eaa779a59c3315bc
+  position: {x: 443.99997, y: -77.00001}
+  child: {fileID: 9071466687257924689}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-3707141223954805540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I don't know . . .
+  guid: 87858f3356e96be4081e30cb9f4337d5
+  position: {x: 443.99997, y: 77}
+  child: {fileID: 9071466687257924689}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-2727997607244831800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: . . . And I hope you find peace on your journey.
+  guid: 24ec9983780d87b4387e25aedc6e8c3d
+  position: {x: 1265.3369, y: -0.000030040741}
+  child: {fileID: 8821908547255019015}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 420811284
+      Data2: 1211015280
+      Data3: 2061683340
+      Data4: 365635868
+    Path: event:/prieMed
+--- !u!114 &-2481566311829605764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: . . .
+  guid: 76b0687ab99af024ebd9549d05dc581a
+  position: {x: 854.73175, y: -0.0000047683716}
+  child: {fileID: 7737490749535621928}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: HighPriestess-RoC
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 356966622779498693}
+  dialogues:
+  - {fileID: 356966622779498693}
+  - {fileID: 5920724947846576102}
+  - {fileID: 3202363670500612934}
+  - {fileID: -3707141223954805540}
+  - {fileID: -4253174223567326203}
+  - {fileID: -9122813797232127173}
+  - {fileID: 8821908547255019015}
+  - {fileID: -2727997607244831800}
+  - {fileID: -6071351623321044081}
+  - {fileID: 7737490749535621928}
+  - {fileID: -2481566311829605764}
+  - {fileID: 2113544046363102951}
+  - {fileID: 9071466687257924689}
+--- !u!114 &356966622779498693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: My my, greetings fair youngling.
+  guid: 66b834c809258ab4daf97fd9ef2efea2
+  position: {x: 0, y: 0}
+  child: {fileID: 5920724947846576102}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &2113544046363102951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: Let us simply embrace for a moment.
+  guid: c6f7d60d36a08604aac6c9654937c420
+  position: {x: 725.45734, y: -0.0000047683716}
+  child: {fileID: -2481566311829605764}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &3202363670500612934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: What pains you, sweet child?
+  guid: 582abb00cb716f647b9647e26b63e190
+  position: {x: 295.71, y: 0.00000166893}
+  child: {fileID: -3707141223954805540}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+  options:
+  - {fileID: -4253174223567326203}
+  - {fileID: -3707141223954805540}
+--- !u!114 &5920724947846576102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: I can sense deep turmoil within you . . .
+  guid: 49c0bd8c8bdfd5740a280bafd57d1f7c
+  position: {x: 160.96939, y: -0.0000047683716}
+  child: {fileID: 3202363670500612934}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &7737490749535621928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: . . .
+  guid: c649c53b8eca29e4d9b83ee7ebbfde69
+  position: {x: 987.6776, y: -0.00000667572}
+  child: {fileID: -6071351623321044081}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &8821908547255019015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: Good luck on your quest, little prince.
+  guid: 3fc0f105598636841a12ae203f4fe6f1
+  position: {x: 1407.4515, y: -0.000030040741}
+  child: {fileID: -9122813797232127173}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &9071466687257924689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: It's okay little one,  there's no need for many words . . .
+  guid: f56b01e1b05e5c642af44e29ca318588
+  position: {x: 599.0113, y: -0.000009059906}
+  child: {fileID: 2113544046363102951}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho

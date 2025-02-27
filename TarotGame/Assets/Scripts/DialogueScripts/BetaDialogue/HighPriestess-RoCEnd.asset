@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6386815467989095518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: You have done well to make it this far.
+  guid: 881424b57d5856f489612848c6d06007
+  position: {x: 462.875, y: -0.00003186226}
+  child: {fileID: -3778782133068744232}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &-5841254720100465160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: I am proud of you, little prince.
+  guid: bf3ac0507aebef14c9d709a328c067c2
+  position: {x: 750.00006, y: 0.000002861023}
+  child: {fileID: 0}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &-4920493099678813773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: You've made it far, little prince.
+  guid: 1be3ee557ebc50040acd483fa3533388
+  position: {x: 0.000017166138, y: 0.000002861023}
+  child: {fileID: 4297553208746560181}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &-3778782133068744232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: For whatever it may be worth . . .
+  guid: 27dfda9a8e6fadf4fb5bf239ff9db902
+  position: {x: 608.35, y: -0.00003186226}
+  child: {fileID: -5841254720100465160}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &-3219283540553550213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: But still, it requires effort to reach this inner garden.
+  guid: 9b9e07ba7e1e07049a142f0883f91d40
+  position: {x: 320.04498, y: -0.000052042007}
+  child: {fileID: -6386815467989095518}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: HighPriestess-RoCEnd
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -4920493099678813773}
+  dialogues:
+  - {fileID: -4920493099678813773}
+  - {fileID: -5841254720100465160}
+  - {fileID: -3778782133068744232}
+  - {fileID: -6386815467989095518}
+  - {fileID: -3219283540553550213}
+  - {fileID: 4297553208746560181}
+--- !u!114 &4297553208746560181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: This cemetery is a place of peace.
+  guid: 4e0ac5f8270330c4ab5b4072166fa210
+  position: {x: 165.31248, y: -0.00003186226}
+  child: {fileID: -3219283540553550213}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f22412ad-8898-4886-8682-1ee393b3f9f2}">
+		<property name="assetPath">
+			<value>chime4.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.7310657596371879</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d024972d-21e3-40eb-ae0d-c3341d926f7a}</destination>
+		</relationship>
+	</object>
+</objects>

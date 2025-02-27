@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-351242801591450741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: Oh you're back, hooray!
+  guid: e24f5a77e9e8ad643b50c7a027343500
+  position: {x: -27.37576, y: -0.00000667572}
+  child: {fileID: 5845865987453881514}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheSun-RoWFollowUp
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -351242801591450741}
+  dialogues:
+  - {fileID: -351242801591450741}
+  - {fileID: 7793299970117353931}
+  - {fileID: 5845865987453881514}
+--- !u!114 &5845865987453881514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: Now we can properly depart with a laugh!
+  guid: 663699858ed4b644989fb0c8162f3291
+  position: {x: 165.77536, y: -0.00000667572}
+  child: {fileID: 7793299970117353931}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &7793299970117353931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: Eh hee hee!
+  guid: 196914566bf941446b8e2a00f4e57689
+  position: {x: 336.11337, y: -0.00000667572}
+  child: {fileID: 0}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho

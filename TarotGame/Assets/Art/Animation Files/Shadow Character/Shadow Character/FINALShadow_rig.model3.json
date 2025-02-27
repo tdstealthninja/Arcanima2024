@@ -1,0 +1,22 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "FINALShadow_rig.moc3",
+		"Textures": [
+			"FINALShadow_rig.1024/texture_00.png"
+		],
+		"DisplayInfo": "FINALShadow_rig.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

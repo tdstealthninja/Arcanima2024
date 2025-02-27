@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2850182430712482115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Programmer with not enough sleep
+  Text: 'This is the last dialogue to show that the test was successful. '
+  guid: da4dfad0e94986b4481547334a29dff4
+  position: {x: 492.2, y: 6.399994}
+  child: {fileID: 0}
+--- !u!114 &-2582470653033031400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Programmer with not enough sleep
+  Text: 'Node 2: Test 2
+
+    This should not show up on the button, but show up in
+    the UI if chosen'
+  guid: c7249b28180ad1d4eb2f243573106662
+  position: {x: 311.2, y: 69.600006}
+  child: {fileID: -2850182430712482115}
+--- !u!114 &-1259331057995636978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Programmer with not enough sleep
+  Text: "Node 1: Test 1 \nThis should not show up on the button, but show up in the
+    UI if chosen"
+  guid: f029551a4ec59d54e9012b139bffd4d4
+  position: {x: 311.19998, y: -91.90399}
+  child: {fileID: -2850182430712482115}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TC2
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 153905738309295339}
+  dialogues:
+  - {fileID: 153905738309295339}
+  - {fileID: 5212225119781741352}
+  - {fileID: 3434648435621950503}
+  - {fileID: -1259331057995636978}
+  - {fileID: -2582470653033031400}
+  - {fileID: -2850182430712482115}
+--- !u!114 &153905738309295339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: Programmer with not enough sleep
+  Text: This is a branch test, starting at the root
+  guid: 35069ca552f7abf478eef8252d71bdf3
+  position: {x: -271.40002, y: 31.199997}
+  child: {fileID: 5212225119781741352}
+--- !u!114 &3434648435621950503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: Programmer with not enough sleep
+  Text: This is a branch node
+  guid: a3d37abac898c7b468b1ac6bf1235730
+  position: {x: 131.99997, y: 31.199997}
+  child: {fileID: -2582470653033031400}
+  options:
+  - {fileID: -1259331057995636978}
+  - {fileID: -2582470653033031400}
+--- !u!114 &5212225119781741352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Programmer with not enough sleep
+  Text: This is a dialogue node
+  guid: 19e23ec75908dcf4c8442502f22c8173
+  position: {x: -57, y: 31.200012}
+  child: {fileID: 3434648435621950503}

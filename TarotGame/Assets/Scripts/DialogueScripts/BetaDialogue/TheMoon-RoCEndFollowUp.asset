@@ -1,0 +1,806 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7927797206745632234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Someone more.
+  guid: 5adff025f867b804aabb3c6b06dee2a3
+  position: {x: 2732.2004, y: -0.0000042915344}
+  child: {fileID: -3577744147362309390}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-7755741848822232977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: I am usually unable to speak to others despite my desire to.
+  guid: d69de4f8a6b40f44a94451f6f05dba16
+  position: {x: 1575.9607, y: -76.999985}
+  child: {fileID: -3286209723690006096}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-7406213508824182790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I do tend to like listening.
+  guid: b3afa4f125d6bf843822fb84a3314086
+  position: {x: 525.99994, y: -230.74893}
+  child: {fileID: 2937929859436944795}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-7249334523954956998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: It can be hard to remember that our fears are but an illusion, but I think
+    I have an idea of how to help.
+  guid: 86e3c59314e4d3c4eab983d8d5a9bb09
+  position: {x: 1396.0001, y: 76.999985}
+  child: {fileID: 4575019208071958272}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 778679459
+      Data2: 1296294490
+      Data3: -1225176692
+      Data4: -527931804
+    Path: event:/mooMed
+--- !u!114 &-5908427417477870109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: It's just, I assumed one of our differences was that I was more the talker
+    than you are.
+  guid: dc998f9f4b65a534584e1a906585baa4
+  position: {x: 350, y: 0}
+  child: {fileID: 3513251115963847820}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 778679459
+      Data2: 1296294490
+      Data3: -1225176692
+      Data4: -527931804
+    Path: event:/mooMed
+  options:
+  - {fileID: -7406213508824182790}
+  - {fileID: 3513251115963847820}
+--- !u!114 &-5881101324709224062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: It's me . . . my desires . . . our thoughts flowing forth into your conscience.
+  guid: e79f891a63fcda8429940d52fdb430af
+  position: {x: 2294, y: -0.000009417534}
+  child: {fileID: -4982966225800503062}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-5414560985071125451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Ah, confidence.
+  guid: 4cbbe6bdf1f5b15438a680504b59200f
+  position: {x: 712, y: 77.000015}
+  child: {fileID: 5262551574645144217}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-5327392297799235004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Don't misinterpret my words, I'm not unhappy to speak with you.
+  guid: 529e387d8ae3283419706ec19599fe36
+  position: {x: 178.72, y: 0}
+  child: {fileID: -5908427417477870109}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 778679459
+      Data2: 1296294490
+      Data3: -1225176692
+      Data4: -527931804
+    Path: event:/mooMed
+--- !u!114 &-4982966225800503062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Any idea I concieve is yours, and any idea you concieve mine.
+  guid: 9980e1d7e72e5654982590a3f3fae97a
+  position: {x: 2441.2007, y: -0.0000042915344}
+  child: {fileID: 8569927540714928732}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-4826171744315210731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: I am forever with you.
+  guid: 0f84d62410253c448a9ec98f52656eb2
+  position: {x: 3459.2004, y: -0.0000042915344}
+  child: {fileID: 0}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-4368375167559110427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Carefully considering what others have to say is respectable.
+  guid: 0962d28fe52915a4bb186d3630b419f5
+  position: {x: 887, y: -77.000046}
+  child: {fileID: 1442570084442573236}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-3825431227955201571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: And of course . . .
+  guid: 2a4600276e9a03b498d0f858e150d441
+  position: {x: 3312, y: -0.0000021457672}
+  child: {fileID: -4826171744315210731}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-3577744147362309390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: . . .
+  guid: 527c6455f5017ad40a5196685b0f140a
+  position: {x: 2869.2007, y: -0.0000042915344}
+  child: {fileID: -1354739052330225920}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-3286209723690006096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: I know your nature is to prefer listening, but I have a request.
+  guid: e91c7835e2ae4a945a146a919dcef09d
+  position: {x: 1752.2509, y: -77.00007}
+  child: {fileID: 974379152336576669}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-3190094418305700989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Any time you ever hear that voice in the back of your head.
+  guid: 296a2eb591f12c84591477d77d1eabee
+  position: {x: 2156, y: 0.0000013113022}
+  child: {fileID: -5881101324709224062}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-2145269772245019253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: You're back?
+  guid: 33aa0a2b4819f364b8bd2aa805d56732
+  position: {x: 0, y: 0}
+  child: {fileID: -5327392297799235004}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-1354739052330225920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Unfortunately, I believe we've not much more time to properly acquaint ourselves.
+  guid: ef2aa9267d539cc4d9c3207d1d8abfed
+  position: {x: 3007.749, y: 0.000009298325}
+  child: {fileID: 4743406845414086123}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-807001641540814700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Although I have never spoken with anyone besides you . . .
+  guid: 0e0b598d769845548b698169fc051234
+  position: {x: 1221, y: -77}
+  child: {fileID: 7666646320991259064}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheMoon-RoCEndFollowUp
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -2145269772245019253}
+  dialogues:
+  - {fileID: -2145269772245019253}
+  - {fileID: -5327392297799235004}
+  - {fileID: -5908427417477870109}
+  - {fileID: 3513251115963847820}
+  - {fileID: -7406213508824182790}
+  - {fileID: 974379152336576669}
+  - {fileID: -3286209723690006096}
+  - {fileID: -7755741848822232977}
+  - {fileID: 7666646320991259064}
+  - {fileID: -807001641540814700}
+  - {fileID: 1442570084442573236}
+  - {fileID: -4368375167559110427}
+  - {fileID: 2937929859436944795}
+  - {fileID: 4575019208071958272}
+  - {fileID: -7249334523954956998}
+  - {fileID: 3796109387928535494}
+  - {fileID: 8860275541902573616}
+  - {fileID: 5262551574645144217}
+  - {fileID: -5414560985071125451}
+  - {fileID: -4826171744315210731}
+  - {fileID: -3825431227955201571}
+  - {fileID: 4743406845414086123}
+  - {fileID: -1354739052330225920}
+  - {fileID: -3577744147362309390}
+  - {fileID: -7927797206745632234}
+  - {fileID: 8569927540714928732}
+  - {fileID: -4982966225800503062}
+  - {fileID: -5881101324709224062}
+  - {fileID: -3190094418305700989}
+--- !u!114 &974379152336576669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: On occaision, please speak on my behalf.
+  guid: 9bd2453db23e1f54ba4211e13b2a8dcb
+  position: {x: 1926.6792, y: -77}
+  child: {fileID: -3190094418305700989}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &1442570084442573236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: As for myself, I suppose I tend to ramble on for as long as I am able.
+  guid: eaa0afa30b78ac2488a54ee3543a0e5e
+  position: {x: 1067, y: -77}
+  child: {fileID: -807001641540814700}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &2937929859436944795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: There is much to admire about reserved silence.
+  guid: c66233d5965b34c4286bd69eb23f242c
+  position: {x: 712, y: -77}
+  child: {fileID: -4368375167559110427}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &3513251115963847820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I'm not confident like you.
+  guid: 7627b19315f4b6a4698943a1fb6df698
+  position: {x: 525.99994, y: 259.2848}
+  child: {fileID: -5414560985071125451}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &3796109387928535494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: I know that isn't much in the way of advice . . .
+  guid: a2878fda2fe9e344b8b5804b3fb90017
+  position: {x: 1221.0002, y: 77.000015}
+  child: {fileID: -7249334523954956998}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &4575019208071958272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: If you ever feel you lack the confidence to speak, you can just listen to
+    me.
+  guid: 9ff77248ec4fdb84eab3734c6204d2db
+  position: {x: 1576, y: 76.999985}
+  child: {fileID: -3190094418305700989}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 778679459
+      Data2: 1296294490
+      Data3: -1225176692
+      Data4: -527931804
+    Path: event:/mooMed
+--- !u!114 &4743406845414086123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Though I don't beleive we'll meet like this again, please know that it was
+    a gift.
+  guid: 290cf60317acb00418e1c0d13115eb2f
+  position: {x: 3144.255, y: 0.000027030179}
+  child: {fileID: -3825431227955201571}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &5262551574645144217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: There's no need to worry about confidence in such things.
+  guid: 4c53ef1108f93464f86f94fb0856cd04
+  position: {x: 887, y: 76.99999}
+  child: {fileID: 8860275541902573616}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &7666646320991259064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: I ask you to bear this in your mind.
+  guid: a673daf5b1952ce4cb686872d05c9941
+  position: {x: 1396, y: -76.999916}
+  child: {fileID: -7755741848822232977}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &8569927540714928732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: While I am but a part of you, we in turn are part of something more.
+  guid: f3b73bcaf31c9d447ac5e594ed15c4f0
+  position: {x: 2595, y: 0.000026583672}
+  child: {fileID: -7927797206745632234}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &8860275541902573616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: After all, I have confidence in spades, and I am a part of you.
+  guid: 4fab0c33e544bbc4481047f6376bdaeb
+  position: {x: 1067.0001, y: 76.99999}
+  child: {fileID: 3796109387928535494}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho

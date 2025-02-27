@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ab4169ab-ea51-4e0d-8a55-66642bd2aa88}">
+		<property name="assetPath">
+			<value>bells9.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.7705668934240362</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d024972d-21e3-40eb-ae0d-c3341d926f7a}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,674 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8559947580265829503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Should you remedy what disturbs the balance within the Realms and within
+    yourself, it is possible - nay, likely that The Tower may follow suit . . .
+  guid: 2dd956b45f2579b42a1ad5035b9030fa
+  position: {x: 1288.9998, y: 77.000015}
+  child: {fileID: -206437521477175800}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &-8377916560070327164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: However, its nature is not one of harmony but rather of discord.
+  guid: 9856afcbed87e5846a8981ed54de352d
+  position: {x: 791.9999, y: 77.000015}
+  child: {fileID: 8783587020517606599}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-6269118106782952566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: The Realms?
+  guid: dc57bd1fe2916214ca6bedf7263bfeec
+  position: {x: 411.99997, y: -62.000023}
+  child: {fileID: -647191409746214720}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-5217807132069145297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: The Realm of Wands safeguards the element of Fire and the need to look towards
+    the future.
+  guid: 4d01f83ed93630f43aed949d017d8202
+  position: {x: 1275, y: -113}
+  child: {fileID: 1794192172546946209}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &-3863274028922609150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: However, recent upheaval has altered the fabric of this reality . . .
+  guid: c3fd15e894be1334cb8d42d58a0452a9
+  position: {x: 902.4846, y: -113.233734}
+  child: {fileID: 7158927399295962314}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-1220937967626634208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: '. . . this growth will see you evolve and pierce the veil of this world,
+    allowing you to return whence you came. '
+  guid: 995238fdea4ae254486eed704de0b10b
+  position: {x: 1649.4846, y: -113.233734}
+  child: {fileID: -206437521477175800}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &-1056290280871696176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Pray tell, have you any questions about the lands that lie before you?
+  guid: 693b5275bfc9aec4e942aeb557b92928
+  position: {x: 276.80002, y: 0.000005722046}
+  child: {fileID: 664375304045241845}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+  options:
+  - {fileID: -6269118106782952566}
+  - {fileID: 664375304045241845}
+--- !u!114 &-647191409746214720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: The Realms of the Elements.
+  guid: 3a204403cfae12c42967afc31e355878
+  position: {x: 533.99994, y: -112.999985}
+  child: {fileID: 4155058914559217246}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-206437521477175800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: I hope you found my musings satisfactory.
+  guid: 0a1ddcec7d4f745459ff2fca558edb77
+  position: {x: 1788, y: -0.74901384}
+  child: {fileID: 9029907119963977221}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheMagician-TutorialLore
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 5263382142469151480}
+  dialogues:
+  - {fileID: 5263382142469151480}
+  - {fileID: 7234483080341236555}
+  - {fileID: -1056290280871696176}
+  - {fileID: 664375304045241845}
+  - {fileID: -6269118106782952566}
+  - {fileID: 9029907119963977221}
+  - {fileID: -206437521477175800}
+  - {fileID: -3863274028922609150}
+  - {fileID: 7158927399295962314}
+  - {fileID: 2295050160638208787}
+  - {fileID: 6952819739631439276}
+  - {fileID: -5217807132069145297}
+  - {fileID: 1794192172546946209}
+  - {fileID: 8807749516694107837}
+  - {fileID: -1220937967626634208}
+  - {fileID: -647191409746214720}
+  - {fileID: 4155058914559217246}
+  - {fileID: -8377916560070327164}
+  - {fileID: 1560570466703219850}
+  - {fileID: 2294009865677291876}
+  - {fileID: 8783587020517606599}
+  - {fileID: 6637201642925506171}
+  - {fileID: 5105305087389836687}
+  - {fileID: -8559947580265829503}
+--- !u!114 &664375304045241845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: The Tower?
+  guid: 768d442858fb2144a912401b4a78a051
+  position: {x: 411.58252, y: 50.322487}
+  child: {fileID: 2294009865677291876}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &1560570466703219850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Its composition is of Luminiferous Aether, the binding Element of the Realms.
+  guid: 32ba5ef3a36ba854a8e40063c2acfe1d
+  position: {x: 657.9998, y: 77.000015}
+  child: {fileID: -8377916560070327164}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &1794192172546946209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: In time you shall venture through both and master their elements, as I did
+    long ago.
+  guid: dc48ec52c8671f54f9dc768e6a51ef01
+  position: {x: 1389.4845, y: -113.233734}
+  child: {fileID: 8807749516694107837}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &2294009865677291876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: The Tower is somewhat of a foreign oddity to me.
+  guid: f479de59a7171de4b94db84a87e1afb7
+  position: {x: 533.9999, y: 77.000015}
+  child: {fileID: 1560570466703219850}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &2295050160638208787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: The Realm of Cups safeguards the element of Water and the importance of looking
+    inwards.
+  guid: 9a2b11c40cdcbf14ab25adbf40ddb3f2
+  position: {x: 1140, y: -113.00001}
+  child: {fileID: -5217807132069145297}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &4155058914559217246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Cups, Wands, Swords, and Pentacles . . .
+  guid: 90b37a32d1e59a0408a636af47e98505
+  position: {x: 657.4846, y: -113.233734}
+  child: {fileID: 6952819739631439276}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &5105305087389836687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: As above, so below . . .
+  guid: c00638aad5cc0cf4586916096129a7ff
+  position: {x: 1162.9998, y: 77.000015}
+  child: {fileID: -8559947580265829503}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &5263382142469151480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Lo, The Fool returns.
+  guid: 154e8d87f864fc043961a262f034b3a9
+  position: {x: 2.0113647, y: 0.00000667572}
+  child: {fileID: 7234483080341236555}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &6637201642925506171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: It is possible that you may be able to traverse it the same as the Realms,
+    but only time will tell.
+  guid: 852e8c6f66266134daf1fdf85ee9a88e
+  position: {x: 1043.9999, y: 77.000015}
+  child: {fileID: 5105305087389836687}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &6952819739631439276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Each has stood in balance since time immemorial.
+  guid: 456a76479316b08488d7dc50de39e228
+  position: {x: 780.4846, y: -113.233734}
+  child: {fileID: -3863274028922609150}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &7158927399295962314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: . . . only two Realms remain fully intact.
+  guid: e33dc05571ce9494181abe9cbdc6f891
+  position: {x: 1021.48456, y: -113.233734}
+  child: {fileID: 2295050160638208787}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &7234483080341236555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: My role to play is that of a guide.
+  guid: 3ce6318e46749c742b40b8b8bf224666
+  position: {x: 142.71, y: -0.000007390976}
+  child: {fileID: -1056290280871696176}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &8783587020517606599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Its pressence spells disaster, although of what I know not.
+  guid: 64ba80ef90cd73448a305e880e77233b
+  position: {x: 916.9998, y: 77.000015}
+  child: {fileID: 6637201642925506171}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &8807749516694107837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: In overcoming each of the Realms and the obstacles there within, you shall
+    grow . . .
+  guid: 31c93a4c52d7baa49bd1f82b7e151d52
+  position: {x: 1519.4846, y: -113.233734}
+  child: {fileID: -1220937967626634208}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &9029907119963977221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: I implore you return should you wish to listen once more, young Fool.
+  guid: 03e54b21ca7a9b64e8bcb9749917fc24
+  position: {x: 1912, y: -1.0000249}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho

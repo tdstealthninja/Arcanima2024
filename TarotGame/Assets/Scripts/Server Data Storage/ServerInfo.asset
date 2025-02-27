@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc3af330380e6a46bebdf9ef6f2347a, type: 3}
+  m_Name: ServerInfo
+  m_EditorClassIdentifier: 
+  authenticationKey: wj0d39GJA932frAF!fja^^dajIE()QJFDQ#@(HFAvjv39veijf49vaEJF4veEA(JDfj
+  authenticationLink: https://testing-server.colink1.repl.co/authenticate.php
+  logoutLink: https://testing-server.colink1.repl.co/logout.php
+  storeLink: https://testing-server.colink1.repl.co/store.php
+  loadLink: https://testing-server.colink1.repl.co/load.php
+  listLink: https://testing-server.colink1.repl.co/list.php

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Test Dialogue
+  m_EditorClassIdentifier: 
+  Name: Developer #4
+  Text: 'This is test dialogue, thus I am using this time to not only not code the
+    rest of this system but also to test how much I can type before I fill up the
+    entire box in the inspector. It turns out [TextArea(10,15)] is pretty large for
+    a box and should be good enough for any dialogue lines, not to mention the box
+    stretches with the inspector window and thus with how I have it I only have this
+    last line where I am typing last, or not because it seems to add a line before
+    I even got close to the end and only now did the scroll bar has appeared so I
+    shall stop typing now. '

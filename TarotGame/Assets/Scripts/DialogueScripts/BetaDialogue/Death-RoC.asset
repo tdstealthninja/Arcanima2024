@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8805233244973414748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: Do you seek swift egress alongside me? Many before you did - the fools.
+  guid: 891d8473dd1fb874d83b4c98c93a75ba
+  position: {x: 291, y: 0}
+  child: {fileID: -3804135436541138914}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-8155010807826818696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: . . .Salutations, traveler.
+  guid: b37bcc9c5f3c8ab4b915efcfef2f8444
+  position: {x: 0, y: 0}
+  child: {fileID: -7192110168045193499}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-7192110168045193499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: . . .Hm. You seek passage through these rain-stricken wastes?
+  guid: 0ac651e34c0119843988e4c8add14a4a
+  position: {x: 163, y: 0}
+  child: {fileID: -8805233244973414748}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-3804135436541138914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: I flit to and fro between The Realms and places beyond. That much is true
+    . . .
+  guid: ddb45d24a58016a4781bd7acf27eb680
+  position: {x: 432, y: 0}
+  child: {fileID: 71993190920637458}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-3789889654025481661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: It ill suits you to linger in stagnation . . .
+  guid: f936e02d49cabb3419e2c606b8d8d9a0
+  position: {x: 835.6, y: 0.000015258789}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: Death-RoC
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -8155010807826818696}
+  dialogues:
+  - {fileID: -8155010807826818696}
+  - {fileID: 1666274192789693382}
+  - {fileID: 71993190920637458}
+  - {fileID: -3804135436541138914}
+  - {fileID: -8805233244973414748}
+  - {fileID: -7192110168045193499}
+  - {fileID: -3789889654025481661}
+--- !u!114 &71993190920637458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: Nevertheless, my quarrel lies not with you, but what you once were in a world
+    gone away.
+  guid: 79f820d0f5b4c064e9ad4136052e6871
+  position: {x: 559, y: 0.00000667572}
+  child: {fileID: 1666274192789693382}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &1666274192789693382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: Shed this Realm, so my work here can conclude.
+  guid: e9e6445a93a2b0f43838e06faa5eca1c
+  position: {x: 698, y: 0}
+  child: {fileID: -3789889654025481661}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho

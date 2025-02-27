@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7864033403330653335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: 'Consider yourself fortunate to know this, traveler: '
+  guid: a72f6b70baabb3548a66588e91d14290
+  position: {x: 857.91266, y: -0.0000076293945}
+  child: {fileID: 6739889862692095715}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-7256931310930153001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: You traveled far to these reaches. Was it all just to see me again?
+  guid: 7716739e925a91f44a1bbcc414161b39
+  position: {x: 147, y: 0}
+  child: {fileID: 3190584603245631411}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-6261849514894270238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: Flame truly is a precious thing. It cleanses, reveals, and even creates .
+    . . All living things are children of the forge. All return to these flames time
+    and time again.
+  guid: 119e4eb4ae3958746af60cfb1b5f7db5
+  position: {x: 610, y: 0}
+  child: {fileID: 48680718793070989}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1940466894
+      Data2: 1082683196
+      Data3: -745261908
+      Data4: 1558529743
+    Path: event:/deaLon
+--- !u!114 &-5961273027068088477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: It was only sensible that you came here, to this land of purifying incandescence.
+  guid: f2df474809ec3a141a271ffac7672e89
+  position: {x: 496.80005, y: 0.0000076293945}
+  child: {fileID: -6261849514894270238}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 413971017
+      Data2: 1242831010
+      Data3: 125832851
+      Data4: 414712711
+    Path: event:/deaMed
+--- !u!114 &-5751917839330070604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: Drenched in woeful rains, tempered above flame and slag . . .
+  guid: b27f50dba2a23fc47929a7040de3a6bf
+  position: {x: 0, y: 0}
+  child: {fileID: -7256931310930153001}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-4741206246511695672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: Your journey will never end.
+  guid: 48dd49eda051ee94f9102610f2102c96
+  position: {x: 1100.004, y: 0.0000034570694}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-14883722321166156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: To live is to know one's own imperfection, and to desire its immolation .
+    . .
+  guid: 2cf1cba23ad17074bb9e8fbdadfc9db6
+  position: {x: 386, y: 0}
+  child: {fileID: -5961273027068088477}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 413971017
+      Data2: 1242831010
+      Data3: 125832851
+      Data4: 414712711
+    Path: event:/deaMed
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: Death-RoWEnd
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -5751917839330070604}
+  dialogues:
+  - {fileID: -5751917839330070604}
+  - {fileID: 6739889862692095715}
+  - {fileID: -7864033403330653335}
+  - {fileID: 48680718793070989}
+  - {fileID: -6261849514894270238}
+  - {fileID: -5961273027068088477}
+  - {fileID: -14883722321166156}
+  - {fileID: 3190584603245631411}
+  - {fileID: -7256931310930153001}
+  - {fileID: -4741206246511695672}
+--- !u!114 &48680718793070989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: New flaws are illuminated, new ash is made of them, new life is breathed
+    into what remains.
+  guid: f625954578ff8fd49aaf39886ddaf881
+  position: {x: 736.91266, y: -0.0000076293945}
+  child: {fileID: -7864033403330653335}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 413971017
+      Data2: 1242831010
+      Data3: 125832851
+      Data4: 414712711
+    Path: event:/deaMed
+--- !u!114 &3190584603245631411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: Hah . . . I jest. You had no choice in the matter, after all. Change, metamorphosis;
+    it was all you could do.
+  guid: 7024dae67b067c34095c20b21acf5b57
+  position: {x: 265.65002, y: 0.0000076293945}
+  child: {fileID: -14883722321166156}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 413971017
+      Data2: 1242831010
+      Data3: 125832851
+      Data4: 414712711
+    Path: event:/deaMed
+--- !u!114 &6739889862692095715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: Even atop the Tower's peak, even in the place from whence you came, the flames
+    of change blaze eternal in all places . . .
+  guid: 6d8e5cf1ca8567c4a8470ea039cf5d76
+  position: {x: 977, y: -0.00001001358}
+  child: {fileID: -4741206246511695672}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 413971017
+      Data2: 1242831010
+      Data3: 125832851
+      Data4: 414712711
+    Path: event:/deaMed

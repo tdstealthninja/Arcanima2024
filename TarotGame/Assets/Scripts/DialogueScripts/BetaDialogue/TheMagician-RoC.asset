@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7486130887219307940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: . . . The Masuoleum in the heart of this Realm.
+  guid: c85d7e3441d93fc45ba41ffa2d018074
+  position: {x: 579.39996, y: 0}
+  child: {fileID: -7010246038321164480}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-7290725337041229140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: . . . passing through this gardened graveyard in order to reach your goal.
+  guid: b2f8915c46d56454789541bf258057e8
+  position: {x: 360.8, y: 0}
+  child: {fileID: 2354657472657352922}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-7010246038321164480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: There, you'll properly depart with those Flowers you've been gathering.
+  guid: 869431820604db648b9408c43e51a69b
+  position: {x: 693.12, y: 0}
+  child: {fileID: 6702260756806572383}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-1844536272348320423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Follow your passion and grow towards mastery, young Fool.
+  guid: 0d37ef286a8211d47b0993e1c0705568
+  position: {x: 915.0801, y: 0.00003655815}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheMagician-RoC
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 4449833587016187137}
+  dialogues:
+  - {fileID: 4449833587016187137}
+  - {fileID: -1844536272348320423}
+  - {fileID: 6702260756806572383}
+  - {fileID: -7010246038321164480}
+  - {fileID: -7486130887219307940}
+  - {fileID: 2354657472657352922}
+  - {fileID: -7290725337041229140}
+  - {fileID: 8265846611916309709}
+  - {fileID: 3528347716662983613}
+--- !u!114 &2354657472657352922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: 'Very soon, you will find yourself upon the threshold of your destination:'
+  guid: cb17b232ebc494e459e58a1e568f9f3c
+  position: {x: 469.12006, y: 0}
+  child: {fileID: -7486130887219307940}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &3528347716662983613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: We stand together in the Realm of Cups, home of the Element of Water.
+  guid: 592182c09e908574fb3172ed588cb195
+  position: {x: 141, y: 0}
+  child: {fileID: 8265846611916309709}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &4449833587016187137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: We meet again wayward Fool.
+  guid: 7f24619469d2c0e4c86de31bbaafb1fd
+  position: {x: 1, y: 0}
+  child: {fileID: 3528347716662983613}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &6702260756806572383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Your desires and destiny lie before you . . .
+  guid: 6ba10587a4ecc984a92773969ae8af13
+  position: {x: 802.4, y: 0}
+  child: {fileID: -1844536272348320423}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &8265846611916309709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: You must have overcome a few obstacles in finding me again, here . . .
+  guid: 5414d03a79f74074d9b550949d7232da
+  position: {x: 262.9999, y: -0.00000667572}
+  child: {fileID: -7290725337041229140}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho

@@ -1,0 +1,95 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param_Head",
+			"GroupId": "",
+			"Name": "Head Rotation"
+		},
+		{
+			"Id": "Param_Head_UP_DOWN",
+			"GroupId": "",
+			"Name": "Head Up/Down"
+		},
+		{
+			"Id": "Param_Neck",
+			"GroupId": "",
+			"Name": "Neck Rotation"
+		},
+		{
+			"Id": "ParamR_Arm",
+			"GroupId": "",
+			"Name": "R_Arm_Rotation"
+		},
+		{
+			"Id": "Param_R_Elbow",
+			"GroupId": "",
+			"Name": "R_Elbow_Rotation"
+		},
+		{
+			"Id": "Param_L_Arm",
+			"GroupId": "",
+			"Name": "L_Arm_Rotation"
+		},
+		{
+			"Id": "Param_L_Elbow",
+			"GroupId": "",
+			"Name": "L_Elbow_Rotation"
+		},
+		{
+			"Id": "Param_R_Leg",
+			"GroupId": "",
+			"Name": "R_Leg_Rotation"
+		},
+		{
+			"Id": "Param_R_Foot",
+			"GroupId": "",
+			"Name": "R_Foot_Rotation"
+		},
+		{
+			"Id": "Param_L_Leg",
+			"GroupId": "",
+			"Name": "L_Leg_Rotation"
+		},
+		{
+			"Id": "Param_L_Foot",
+			"GroupId": "",
+			"Name": "L_Foot_Rotation"
+		},
+		{
+			"Id": "Param_Cape_Sway",
+			"GroupId": "",
+			"Name": "Cape Sway"
+		},
+		{
+			"Id": "Param_Cape_UP_DOWN",
+			"GroupId": "",
+			"Name": "Cape Up/Down"
+		},
+		{
+			"Id": "Param_Breath",
+			"GroupId": "",
+			"Name": "Breath"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [],
+	"CombinedParameters": [
+		[
+			"ParamR_Arm",
+			"Param_R_Elbow"
+		],
+		[
+			"Param_L_Arm",
+			"Param_L_Elbow"
+		],
+		[
+			"Param_R_Leg",
+			"Param_R_Foot"
+		],
+		[
+			"Param_L_Leg",
+			"Param_L_Foot"
+		]
+	]
+}

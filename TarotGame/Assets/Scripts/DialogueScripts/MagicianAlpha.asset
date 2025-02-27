@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8434822742230624022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: Greetings and well met, wayward prince.
+  guid: e57e73d5cf58e2d4886f30d46e74f19a
+  position: {x: -3.0000231, y: 49.00002}
+  child: {fileID: -6841945134225044954}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &-6841945134225044954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: There is no need for you to speak, for I am aware of your nature.
+  guid: 42a56d82a17054a49ad54e95b4e02972
+  position: {x: 152.00002, y: 49.00002}
+  child: {fileID: 5630077619004526528}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &-5644905871404777678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: I do wonder . . . how shall you proceed . . .
+  guid: 5a53e48c1901cfb44b77b394ad8064e0
+  position: {x: 810.0385, y: 49}
+  child: {fileID: 4314450275197200599}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &-4361457041574561977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: This land's nature, its fate, now rests in your hands.
+  guid: 7bdc987739f9d85498db2a30ec3f728f
+  position: {x: 674.8501, y: 48.999992}
+  child: {fileID: -5644905871404777678}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &-147882623108518262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: However, the Realms have shifted their essence . . .
+  guid: 8f9b8b26b494ef64b9ec580ef962f137
+  position: {x: 417.74902, y: 49.000015}
+  child: {fileID: 5852852281176774720}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: MagicianAlpha
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -8434822742230624022}
+  dialogues:
+  - {fileID: -8434822742230624022}
+  - {fileID: -147882623108518262}
+  - {fileID: -6841945134225044954}
+  - {fileID: 5630077619004526528}
+  - {fileID: 4314450275197200599}
+  - {fileID: -5644905871404777678}
+  - {fileID: -4361457041574561977}
+  - {fileID: 5852852281176774720}
+--- !u!114 &4314450275197200599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: I shall reflect on your journey with great interest, young Fool.
+  guid: 9c59f9868691c7d49821cdbb8389f896
+  position: {x: 945.749, y: 49.000015}
+  child: {fileID: 0}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &5630077619004526528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: I am The Magician. Master of the Realms and steward of this land.
+  guid: 8da41e41ac4055344b80d38b9807e308
+  position: {x: 284, y: 49}
+  child: {fileID: -147882623108518262}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest
+--- !u!114 &5852852281176774720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: The Tower's arrival has brought forth change and borne many an obstacle.
+  guid: 2a5d3915066c11e4a9ef2cb2477139cc
+  position: {x: 545.8, y: 49}
+  child: {fileID: -4361457041574561977}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -183384751
+      Data2: 1145775070
+      Data3: 63746176
+      Data4: -1934495013
+    Path: event:/dTest

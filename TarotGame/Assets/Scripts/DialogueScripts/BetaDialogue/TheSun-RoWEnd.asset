@@ -1,0 +1,560 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6960646693597185714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: . . .
+  guid: 06a9903befd061647a6ff9140079fb74
+  position: {x: 312.99994, y: 0.000011444092}
+  child: {fileID: 4980762308352058230}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-5652794044737336083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: It's never any fun being sad . . .
+  guid: c12e99da22c7160488dc80ed6e7d9be4
+  position: {x: 168.81714, y: 0.000037511825}
+  child: {fileID: -6960646693597185714}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-4619425420033666199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: I know that's what I always strive for.
+  guid: 0e3d4418318789249bca3440af6f135a
+  position: {x: 1373, y: 73.99991}
+  child: {fileID: 2270013593445582932}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-4275821214355041707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Even if it's hidden, though, some people might see through your mask!
+  guid: 77fff0389b7a0f64c87b00ff56969541
+  position: {x: 1118.9884, y: -76.99995}
+  child: {fileID: 1346954921464282068}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-3312748549267403236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Listen, it's important that you never lose sight of your dreams.
+  guid: 690c42db0897e1e45aa49d897877ea86
+  position: {x: 1119, y: 77.00002}
+  child: {fileID: 2595197984617195982}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-403711509308996395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Hey there, friend! You look a little more somber than usual.
+  guid: 5d17b4e59acd1e8449609b3b968f2186
+  position: {x: 13.194496, y: 0.000014305115}
+  child: {fileID: -5652794044737336083}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-288416452025680574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: What do you mean?
+  guid: 0812659bc34c68a42afaf4167a86efa9
+  position: {x: 726.9999, y: -153.99994}
+  child: {fileID: 6493633723855650582}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-262510123702372735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Putting a smile over a frown can help to hide sadness.
+  guid: aaf1e2e31f9311a48955c5eb84ee19ea
+  position: {x: 994.99994, y: -76.99999}
+  child: {fileID: -4275821214355041707}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheSun-RoWEnd
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -403711509308996395}
+  dialogues:
+  - {fileID: -403711509308996395}
+  - {fileID: 4980762308352058230}
+  - {fileID: -5652794044737336083}
+  - {fileID: -288416452025680574}
+  - {fileID: 6159412665256897725}
+  - {fileID: -6960646693597185714}
+  - {fileID: 9167675460107850201}
+  - {fileID: 3428387772816413920}
+  - {fileID: 8498758133773074227}
+  - {fileID: 7456944687180296725}
+  - {fileID: 1346954921464282068}
+  - {fileID: -4275821214355041707}
+  - {fileID: -262510123702372735}
+  - {fileID: 6493633723855650582}
+  - {fileID: 3638756099862251821}
+  - {fileID: -4619425420033666199}
+  - {fileID: 2942635950611241934}
+  - {fileID: 2595197984617195982}
+  - {fileID: -3312748549267403236}
+  - {fileID: 2270013593445582932}
+--- !u!114 &1346954921464282068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: It's totally normal to hide one's true feelings, too.
+  guid: 1ac750e6aa9604a46a10613287465480
+  position: {x: 1238.9884, y: -76.99995}
+  child: {fileID: 7456944687180296725}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &2270013593445582932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: So come on, let's have a laugh!
+  guid: 3dbbcdad0f25aea47b66d8d1710dd4a1
+  position: {x: 1495.9996, y: 74.00004}
+  child: {fileID: 9167675460107850201}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &2595197984617195982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Keep moving toward them, and you'll always find something to smile about!
+  guid: 4b8116cd9de67f540b10452359fc6095
+  position: {x: 1239, y: 74.00003}
+  child: {fileID: -4619425420033666199}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1878498770
+      Data2: 1137406304
+      Data3: -1961868415
+      Data4: 628208767
+    Path: event:/sunMed
+--- !u!114 &2942635950611241934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: It's what you do to cope with those struggles that makes you who you are.
+  guid: d7aa8d3ebe70fdb439a7d9dec4fb59bb
+  position: {x: 994.99994, y: 74.00001}
+  child: {fileID: -3312748549267403236}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &3428387772816413920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: I get it . . . I'm not always as happy as I might seem . . .
+  guid: 7654db630a07d3d46ae8bc4744be5152
+  position: {x: 594, y: -2.9999974}
+  child: {fileID: 6159412665256897725}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+  options:
+  - {fileID: -288416452025680574}
+  - {fileID: 6159412665256897725}
+--- !u!114 &3638756099862251821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Everyone has their struggles. That fact never changes.
+  guid: ac5c18911a505e647a6cfddb85056dd3
+  position: {x: 853.9999, y: 73.99994}
+  child: {fileID: 2942635950611241934}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &4980762308352058230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: . . .
+  guid: 9324a59c6a4221245bcaf992fe7433e0
+  position: {x: 450.21072, y: 0.0000076293945}
+  child: {fileID: 3428387772816413920}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &6159412665256897725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: But you're The Sun!
+  guid: d3fd3875cd9ee0e4a8ace55f90cb82be
+  position: {x: 726.99994, y: 150.99998}
+  child: {fileID: 3638756099862251821}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &6493633723855650582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: It's easy to mask your true feelings . . .
+  guid: 21db387cbf72cb844b26bc1bd03d0334
+  position: {x: 851.98834, y: -76.99995}
+  child: {fileID: -262510123702372735}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &7456944687180296725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Appearances mean a lot to some people . . . They mean a lot to me . . .
+  guid: 50acceaa3f332d844bf17be0360484dc
+  position: {x: 1372.9884, y: -76.99995}
+  child: {fileID: 8498758133773074227}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &8498758133773074227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: So obviously, you'll never know if I really am sad unless I spell it out
+    for you!
+  guid: 0ac0139a1a2de13429a96093eb9fa880
+  position: {x: 1496, y: -79.999916}
+  child: {fileID: 9167675460107850201}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &9167675460107850201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Eh hee hee!
+  guid: 4d98faedada0a204c9c3c21c900b19ca
+  position: {x: 1636.3027, y: 0.000018119812}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho

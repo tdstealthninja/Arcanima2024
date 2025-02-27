@@ -1,0 +1,532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8475242819015221036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: It is rather nice to meet, isn't it?
+  guid: 1126fb6e3e42f38418028c56db8c93e7
+  position: {x: 886.99994, y: 103.999985}
+  child: {fileID: -3267738879455120587}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-7179853215921802730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: You may be the "real" one of us, but never forget . . .
+  guid: 517e06197438f574f8658a1927ab4581
+  position: {x: 1987.567, y: 0.000004529953}
+  child: {fileID: 8942707223056312506}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-6039842006575705125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: I must admit, I'm almost at a loss for what to say.
+  guid: 3bcce9422691c3a4fb80e4636da57bda
+  position: {x: 185.68, y: 0}
+  child: {fileID: -5001000404278210628}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-5408633557925606319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: . . .
+  guid: d0a05b75c0c0d93409e9d4eadf7fafef
+  position: {x: 1618.0002, y: 103.99999}
+  child: {fileID: 5936227450031425521}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-5001000404278210628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: After all, what does one say to their own shadow?
+  guid: 74fa9ca6c7d78c04a998221a0974a82b
+  position: {x: 353.08002, y: 0}
+  child: {fileID: -3530022464057219140}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-4703969073660790902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: So, let's enjoy it while it lasts.
+  guid: 0864af90d5b2a364e8a175603ee13316
+  position: {x: 1446, y: 103.999985}
+  child: {fileID: -5408633557925606319}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-3759271168148840729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: This isn't an opportunity we're often granted.
+  guid: e723f7dec8261cf468c76c835ce2bb4a
+  position: {x: 1258.9998, y: 103.999985}
+  child: {fileID: -4703969073660790902}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-3530022464057219140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: What say you?
+  guid: 73906efa184f34243890f0df6c43f3a1
+  position: {x: 527, y: 0}
+  child: {fileID: 214000852431836555}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+  options:
+  - {fileID: 9205794536184889467}
+  - {fileID: 214000852431836555}
+--- !u!114 &-3267738879455120587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Rather, I suppose it's nice to greet some part of yourself as an equal.
+  guid: 717ac94dbae97a24288255f5af938361
+  position: {x: 1065.9999, y: 103.99999}
+  child: {fileID: -3759271168148840729}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 778679459
+      Data2: 1296294490
+      Data3: -1225176692
+      Data4: -527931804
+    Path: event:/mooMed
+--- !u!114 &-2937603980421711671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Though we are but reflections of one another, we share many similarities.
+  guid: 4e3e23427fc097f41b64f6a22cd74bd1
+  position: {x: 1065.9165, y: -122.000046}
+  child: {fileID: 3423065261820227921}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 778679459
+      Data2: 1296294490
+      Data3: -1225176692
+      Data4: -527931804
+    Path: event:/mooMed
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheMoon-RoCEnd
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 8121052746195542551}
+  dialogues:
+  - {fileID: 8121052746195542551}
+  - {fileID: -6039842006575705125}
+  - {fileID: -5001000404278210628}
+  - {fileID: 9205794536184889467}
+  - {fileID: -3530022464057219140}
+  - {fileID: 214000852431836555}
+  - {fileID: 540630583749019965}
+  - {fileID: -2937603980421711671}
+  - {fileID: 3423065261820227921}
+  - {fileID: 7971653742604939533}
+  - {fileID: 4268503943855799008}
+  - {fileID: -5408633557925606319}
+  - {fileID: -4703969073660790902}
+  - {fileID: -3759271168148840729}
+  - {fileID: -3267738879455120587}
+  - {fileID: -8475242819015221036}
+  - {fileID: 8942707223056312506}
+  - {fileID: -7179853215921802730}
+  - {fileID: 5936227450031425521}
+--- !u!114 &214000852431836555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: It's nice to meet you.
+  guid: 03939e76088209746b2e361ff84928ce
+  position: {x: 635.5623, y: 104.00001}
+  child: {fileID: -8475242819015221036}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &540630583749019965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Well, I suppose it makes sense.
+  guid: a97cac9e36a6d854db52ca5154fa96bf
+  position: {x: 886.5049, y: -122.000046}
+  child: {fileID: -2937603980421711671}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 778679459
+      Data2: 1296294490
+      Data3: -1225176692
+      Data4: -527931804
+    Path: event:/mooMed
+--- !u!114 &3423065261820227921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: . . .
+  guid: ffd45b55312c321448154a4081b76c65
+  position: {x: 1259.3998, y: -122.000046}
+  child: {fileID: 4268503943855799008}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &4268503943855799008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: I wonder where the lines are drawn, where our differences truly lie.
+  guid: d74895b1d6b4c2a4c82bb30c509c59ff
+  position: {x: 1445.8472, y: -121.99999}
+  child: {fileID: 7971653742604939533}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &5936227450031425521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Despite our opposite natures, we are two sides of the same coin.
+  guid: ff121f83fa4956948b13e086d417a473
+  position: {x: 1805, y: 0.000004529953}
+  child: {fileID: -7179853215921802730}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &7971653742604939533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: . . .
+  guid: c47d02dcc74051b47aaac6b6d1766e12
+  position: {x: 1618.2231, y: -122.000046}
+  child: {fileID: 5936227450031425521}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &8121052746195542551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: So, we're finally afforded the opportunity to speak.
+  guid: 87c2404267b050448aa20b0c9ca39987
+  position: {x: 0, y: 0}
+  child: {fileID: -6039842006575705125}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &8942707223056312506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: I am forever with you.
+  guid: a1ddb930bd8d7a443b556daf03999469
+  position: {x: 2175.3645, y: 0.000004529953}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &9205794536184889467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I'm not sure what to say either.
+  guid: a7bc68b6dbfeb0a48902b5233e80ace6
+  position: {x: 710, y: -122}
+  child: {fileID: 540630583749019965}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{10d7149c-e7cf-4233-8043-46160d18330d}">
+		<property name="assetPath">
+			<value>magDiaSh6.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.5703628117913828</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d024972d-21e3-40eb-ae0d-c3341d926f7a}</destination>
+		</relationship>
+	</object>
+</objects>

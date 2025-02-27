@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{24f810da-23d0-4307-96b2-e37b2b14aa06}">
+		<property name="assetPath">
+			<value>heiDiaMed3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.3797732426303853</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d024972d-21e3-40eb-ae0d-c3341d926f7a}</destination>
+		</relationship>
+	</object>
+</objects>

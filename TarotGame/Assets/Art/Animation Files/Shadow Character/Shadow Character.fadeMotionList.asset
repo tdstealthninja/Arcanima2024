@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403ae2dd693bb1d4b924f6b8d206b053, type: 3}
+  m_Name: Shadow Character.fadeMotionList
+  m_EditorClassIdentifier: 
+  MotionInstanceIds: d45afeffc65afeffbc5afeffcc57feffc257feff0853fefffe52feff
+  CubismFadeMotionObjects:
+  - {fileID: 11400000, guid: f36908a5155773e408151447d8828c1d, type: 2}
+  - {fileID: 11400000, guid: f1b030b431e9c3847b641ecbae3c6a58, type: 2}
+  - {fileID: 11400000, guid: 847a77ed7c38ab54888d7699e4517f19, type: 2}
+  - {fileID: 11400000, guid: 0a68fe21ca00e6d45aeb15d6c1b1f281, type: 2}
+  - {fileID: 11400000, guid: ee4e5ff197ffd7f4ea3890a29e122d1c, type: 2}
+  - {fileID: 11400000, guid: 9c57bfc9daba7ea4bb4f386e1a68aa02, type: 2}
+  - {fileID: 11400000, guid: 22682e1cfac92ef4084bcb370a86cf15, type: 2}

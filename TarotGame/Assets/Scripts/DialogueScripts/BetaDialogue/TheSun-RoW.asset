@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8867439455389896562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: . . .
+  guid: 7a83ea5fef91d394ea48c0dc621d73bc
+  position: {x: 919.00793, y: 0.000008940697}
+  child: {fileID: 2296272028659890783}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-7883252329190644481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Who do we have here? A new friend!
+  guid: 71445f4b6a546ab449393ca009f2a364
+  position: {x: 303.00003, y: -0.0000104904175}
+  child: {fileID: -7662193831675083551}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-7662193831675083551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: I'm The Sun, but you can call me Sunny!
+  guid: b9501bcff6b38de4ab5976ae3ca85dd5
+  position: {x: 461, y: 0.0000009536743}
+  child: {fileID: -2568553493098473020}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-2568553493098473020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: Did you just come from that old graveyard?
+  guid: 706bca5e8072906488b8b4d1b6f4ca3c
+  position: {x: 622.4792, y: 0.000015258789}
+  child: {fileID: 3267221911527470025}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &-1999140609638751700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Sun
+  Text: Eh hee hee!
+  guid: f097c2697fbb86445bad03b235623a19
+  position: {x: 122.220566, y: -0.0000013113022}
+  child: {fileID: -7883252329190644481}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheSun-RoW
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -1999140609638751700}
+  dialogues:
+  - {fileID: -1999140609638751700}
+  - {fileID: -7883252329190644481}
+  - {fileID: -7662193831675083551}
+  - {fileID: -2568553493098473020}
+  - {fileID: 3267221911527470025}
+  - {fileID: -8867439455389896562}
+  - {fileID: 2296272028659890783}
+--- !u!114 &2296272028659890783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: Oops - I'm sorry buddy, I didn't mean to strike a nerve . . .
+  guid: faa56ecb02f12ea43a7ca7e85eb0f6af
+  position: {x: 1072, y: 0}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho
+--- !u!114 &3267221911527470025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Sunny
+  Text: What was it like? Was it creepy? Was it wet?
+  guid: 8680a65166712a74d8bfb7b527140e40
+  position: {x: 779.3345, y: 0.000008940697}
+  child: {fileID: -8867439455389896562}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -892938619
+      Data2: 1075936754
+      Data3: -1586929765
+      Data4: -1720887900
+    Path: event:/sunSho

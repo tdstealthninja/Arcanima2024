@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5694234222764068439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Hierophant
+  Text: 'Do not fear, my child.
+
+    For guidance you need just ask,
+
+    and your
+    heart shall lead.'
+  guid: 8032eefc17c36644ca979c2cbbea5410
+  position: {x: 679.99994, y: -0.0000047683716}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1102971959
+      Data2: 1217329236
+      Data3: -402135384
+      Data4: 1071371150
+    Path: event:/heiLon
+--- !u!114 &-3347834523291171767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Hierophant
+  Text: 'You shall be lord yet.
+
+    A duty which demands grace,
+
+    and careful
+    resolve.'
+  guid: 9b88b703cf9ea2d4e9fef674177e030c
+  position: {x: 528, y: -0.0000047683716}
+  child: {fileID: -5694234222764068439}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1100549337
+      Data2: 1165919917
+      Data3: -1657147207
+      Data4: -229703932
+    Path: event:/heiMed
+--- !u!114 &-1012509063243498735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Hierophant
+  Text: 'Present thine crown shards
+
+    to the statue of the lord.
+
+    Inherit
+    his will.'
+  guid: 3698ef07ec7f52444bb328cc0fe69aee
+  position: {x: 180.9841, y: -0.0000047683716}
+  child: {fileID: 5235657501674362452}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1102971959
+      Data2: 1217329236
+      Data3: -402135384
+      Data4: 1071371150
+    Path: event:/heiLon
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheHierophant-RoWEnd
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 5195879623164122193}
+  dialogues:
+  - {fileID: 5195879623164122193}
+  - {fileID: -5694234222764068439}
+  - {fileID: -3347834523291171767}
+  - {fileID: 5235657501674362452}
+  - {fileID: -1012509063243498735}
+--- !u!114 &5195879623164122193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Hierophant
+  Text: 'Greetings, mine young prince,
+
+    I am humbled by thy grace,
+
+    Needst
+    thou some guidance?'
+  guid: 08f612c5038c57e4da3b102f0e147be6
+  position: {x: 7.6043596, y: -0.0000047683716}
+  child: {fileID: -1012509063243498735}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1100549337
+      Data2: 1165919917
+      Data3: -1657147207
+      Data4: -229703932
+    Path: event:/heiMed
+--- !u!114 &5235657501674362452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Hierophant
+  Text: 'Honor to our kings.
+
+    The position of ruler
+
+    is a noble task.'
+  guid: ccf09226904fe2c44a1d3c3b975952bd
+  position: {x: 352.84296, y: -0.0000047683716}
+  child: {fileID: -3347834523291171767}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 885618365
+      Data2: 1112983981
+      Data3: 421758884
+      Data4: -860121355
+    Path: event:/heiSho

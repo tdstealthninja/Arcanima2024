@@ -1,0 +1,614 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8942883217360558714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: . . . and inherit her hopes, dreams, and legacy . . .
+  guid: 5f5ae4cc88ffc3e46a0d79468764179c
+  position: {x: 1006.99994, y: 172.99998}
+  child: {fileID: 7249372310657945011}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-8880599574034991563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Your desires and fears are manifest in him.
+  guid: 35b28ed4db9bc674db4361118c7b8cb9
+  position: {x: 1006.9402, y: -153.99995}
+  child: {fileID: 8347388730809175126}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-8490068416754070396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: . . . but you do not share the same nature.
+  guid: b8115493eea695c48abfdc0c7c669f6c
+  position: {x: 775.94025, y: -153.99995}
+  child: {fileID: 7478262192632605736}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &-7744107207794384795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: He is The Moon.
+  guid: 1272cbdd282341b43a1aec98da517c84
+  position: {x: 408, y: -154.4}
+  child: {fileID: 9072906588279237721}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-6508645610732561222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: Who is that shadow of me?
+  guid: d9661091cf6c0a24fadb1c2670f6057e
+  position: {x: 270.71573, y: -77.000015}
+  child: {fileID: -7744107207794384795}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-5331187295492406711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: In combining with him I believe you move towards closure and maturity.
+  guid: ff31d70fb1cad5e48a5023e64212daed
+  position: {x: 1256.9402, y: -153.99995}
+  child: {fileID: 6204715949010965923}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-4597057481268059180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: Why have I been finding flowers?
+  guid: 330ff1117fa94864eb9837d5ff95d8e3
+  position: {x: 270.99997, y: 76.99999}
+  child: {fileID: 5095016994892148835}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-3606169523387349941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: I emplore you return should you wish to listen once more, young Fool.
+  guid: 70d87b9fbc59d2a4bba7c19d26f751b5
+  position: {x: 1736.0139, y: 38.500042}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &-3009134264882840979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: . . . yet, they are mostly a symbol for the living who grieve.
+  guid: 6b9ee17c6c52e7a4786842a189dd31ff
+  position: {x: 776, y: 173}
+  child: {fileID: 7505416788793378493}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-1959944277189100810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: He is you, and you are him . . .
+  guid: 7f438edeea6f578448278debaf49eabc
+  position: {x: 659.9402, y: -153.99995}
+  child: {fileID: -8490068416754070396}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-1893887215719658552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Such simple things can become a beautiful treasure in a context such as this.
+  guid: d5714c9fbdb385e4da5fb6db45bbf0ee
+  position: {x: 531.9402, y: 173.00003}
+  child: {fileID: 4427975587481625629}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &-166749507889416240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Have you any quandries about this Realm?
+  guid: 036061305dc2c1549934799170db2466
+  position: {x: 152.0875, y: -0.000034650802}
+  child: {fileID: -4597057481268059180}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+  options:
+  - {fileID: -6508645610732561222}
+  - {fileID: -4597057481268059180}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: TheMagician-RoCLore
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 5300375935412556491}
+  dialogues:
+  - {fileID: 5300375935412556491}
+  - {fileID: -166749507889416240}
+  - {fileID: -4597057481268059180}
+  - {fileID: -6508645610732561222}
+  - {fileID: -3606169523387349941}
+  - {fileID: 7249372310657945011}
+  - {fileID: 7478262192632605736}
+  - {fileID: -8490068416754070396}
+  - {fileID: -1959944277189100810}
+  - {fileID: 9072906588279237721}
+  - {fileID: -7744107207794384795}
+  - {fileID: 6551431798314858887}
+  - {fileID: 6204715949010965923}
+  - {fileID: -5331187295492406711}
+  - {fileID: 8347388730809175126}
+  - {fileID: -8880599574034991563}
+  - {fileID: -8942883217360558714}
+  - {fileID: 7505416788793378493}
+  - {fileID: -3009134264882840979}
+  - {fileID: 4427975587481625629}
+  - {fileID: -1893887215719658552}
+  - {fileID: 5095016994892148835}
+--- !u!114 &4427975587481625629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: When offered to the graves of the departed, they become a powerful symbol
+    of our love and memories . . .
+  guid: 41a5d4fa324e4584c98d2ea6afd6a47c
+  position: {x: 647.94025, y: 173.00003}
+  child: {fileID: -3009134264882840979}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &5095016994892148835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: We stand together in a cemetery, these Flowers are not just for our delights.
+  guid: 1fe25e676e665e940bb51a2dfe739a93
+  position: {x: 407.94016, y: 173.00003}
+  child: {fileID: -1893887215719658552}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &5300375935412556491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Allow me to once again serve as a guide.
+  guid: be7bab1f56f068f49a1d67102b5281e1
+  position: {x: -7.999998, y: 0.00000667572}
+  child: {fileID: -166749507889416240}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &6204715949010965923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: In connecting with oneself, we nourish our very being.
+  guid: 8c4bdc508aa7dae458fe78da62d0346d
+  position: {x: 1374, y: -154}
+  child: {fileID: 6551431798314858887}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &6551431798314858887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: If you continue, I am certain you too shall bloom as those Flowers.
+  guid: 4a1b944f62ede434f9d8d5d207388990
+  position: {x: 1488.9403, y: -153.99995}
+  child: {fileID: 7249372310657945011}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &7249372310657945011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: I hope you found my musings satisfactory.
+  guid: 0a526f201f879c249ab98356c99fb27e
+  position: {x: 1612.0139, y: 38.500042}
+  child: {fileID: -3606169523387349941}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 344440572
+      Data2: 1136099149
+      Data3: 1590448531
+      Data4: -1693311532
+    Path: event:/magMed
+--- !u!114 &7478262192632605736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Nonetheless, he is a vital part of you.
+  guid: b6fb9f5ce6f217846a0ff56906e00d13
+  position: {x: 891.94025, y: -153.99995}
+  child: {fileID: -8880599574034991563}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &7505416788793378493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: Seek The Empress . . .
+  guid: e97c61e55b782744b90be21b6ec3b49d
+  position: {x: 904.9402, y: 173.00003}
+  child: {fileID: -8942883217360558714}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &8347388730809175126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: However, you should worry not. These fears are but illusions.
+  guid: bc3b53adfdd57bd4bbecf016c483e9dc
+  position: {x: 1132.9402, y: -153.99995}
+  child: {fileID: -5331187295492406711}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &9072906588279237721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Magician
+  Text: A being emblematic of your "shadow self".
+  guid: dadd68624d72ce74fa4c53edf12c3858
+  position: {x: 532.0001, y: -154.00002}
+  child: {fileID: -1959944277189100810}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho

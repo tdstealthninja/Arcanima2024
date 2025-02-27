@@ -1,0 +1,100 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamFeatherRotation",
+			"GroupId": "",
+			"Name": "Feather Rotation"
+		},
+		{
+			"Id": "ParamFeatherDeformer",
+			"GroupId": "",
+			"Name": "FeatherDeformer"
+		},
+		{
+			"Id": "ParamHead",
+			"GroupId": "",
+			"Name": "HeadRotation"
+		},
+		{
+			"Id": "ParamCapeDeformer",
+			"GroupId": "",
+			"Name": "Cape Deformer"
+		},
+		{
+			"Id": "ParamCapeSway",
+			"GroupId": "",
+			"Name": "Cape Sway"
+		},
+		{
+			"Id": "ParamR_Knee",
+			"GroupId": "",
+			"Name": "R_Knee"
+		},
+		{
+			"Id": "ParamR_Leg",
+			"GroupId": "",
+			"Name": "R_Leg"
+		},
+		{
+			"Id": "ParamL_Knee",
+			"GroupId": "",
+			"Name": "L_Knee"
+		},
+		{
+			"Id": "ParamL_Leg",
+			"GroupId": "",
+			"Name": "L_Leg"
+		},
+		{
+			"Id": "ParamR_Arm",
+			"GroupId": "",
+			"Name": "R_Arm"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "R_Elbow"
+		},
+		{
+			"Id": "ParamL_Arm",
+			"GroupId": "",
+			"Name": "L_Arm"
+		},
+		{
+			"Id": "ParamL_Elbow",
+			"GroupId": "",
+			"Name": "L_Elbow"
+		},
+		{
+			"Id": "ParamHeadMove",
+			"GroupId": "",
+			"Name": "Head Up/Down"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [],
+	"CombinedParameters": [
+		[
+			"ParamR_Knee",
+			"ParamR_Leg"
+		],
+		[
+			"ParamL_Knee",
+			"ParamL_Leg"
+		],
+		[
+			"ParamR_Arm",
+			"Param"
+		],
+		[
+			"ParamL_Arm",
+			"ParamL_Elbow"
+		]
+	]
+}

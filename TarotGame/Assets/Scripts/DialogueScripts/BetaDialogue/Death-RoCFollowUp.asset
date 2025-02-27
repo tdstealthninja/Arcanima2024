@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5984107054705349423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: Traveler, I am no slave to desperate men. The trek ahead is yours to brave.
+  guid: e0b81365a93820c4e9e0d9a6b0133e83
+  position: {x: 0, y: 0}
+  child: {fileID: 7414011553976358499}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &-147488039197345137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: Hah . . . do not look so pale . . .
+  guid: 4e0c5d1ab4c9d2942ac596b4d0c72e3c
+  position: {x: 307, y: 0.000050611496}
+  child: {fileID: 7194147408454933430}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: Death-RoCFollowUp
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: -5984107054705349423}
+  dialogues:
+  - {fileID: -5984107054705349423}
+  - {fileID: -147488039197345137}
+  - {fileID: 7414011553976358499}
+  - {fileID: 7194147408454933430}
+--- !u!114 &7194147408454933430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: Death
+  Text: One dies many times on their path to truly living.
+  guid: b27e0a85358f38b46835603fb6124744
+  position: {x: 441, y: 0.000050611496}
+  child: {fileID: 0}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho
+--- !u!114 &7414011553976358499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: ???
+  Text: Hardships, friendships; all lies ahead. We will meet again, or my name is
+    not Death.
+  guid: 74a78ad77b6677f4ea4fbe1579a83cf0
+  position: {x: 165.95789, y: 0}
+  child: {fileID: -147488039197345137}
+  objectToExplain: {fileID: 0}
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1796835042
+      Data2: 1215414219
+      Data3: -878710374
+      Data4: -1933312632
+    Path: event:/deaSho

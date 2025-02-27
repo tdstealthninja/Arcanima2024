@@ -1,0 +1,806 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8913271436050968103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: For long, this crown has been a symbol of leadership and compassion.
+  guid: ba410ee0ac3a228429076e493f5f9391
+  position: {x: 832.2471, y: 0.0000019073486}
+  child: {fileID: -7456829375936589904}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &-7456829375936589904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: So my child, are you prepared to inherit such responsibility?
+  guid: bd3785c3ad273b640b5b4bf2db253886
+  position: {x: 971, y: 0}
+  child: {fileID: -592550578193085096}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+  options:
+  - {fileID: 827644672930829706}
+  - {fileID: -592550578193085096}
+--- !u!114 &-7267228067397606930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: Hopefully you can find the means to mend them back together.
+  guid: 49f1263c213d5d646b30f21093b15643
+  position: {x: 162.05838, y: -0.000039085484}
+  child: {fileID: 6187275372469497646}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-3697076635551093023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: However, you mustn't ever give in to astonishment or submit to your doubts.
+  guid: 94e5a2d8b9a6f174e90de5f8429de8d4
+  position: {x: 2437.56, y: 0}
+  child: {fileID: -3587171545291102765}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1719920062
+      Data2: 1160316040
+      Data3: 1522104494
+      Data4: 1229528022
+    Path: event:/empMed
+--- !u!114 &-3593123359829169493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: I know. I always know.
+  guid: 7e037b3c7f739f64bbd8fc5d964e7f63
+  position: {x: 2930.666, y: -0.0000104904175}
+  child: {fileID: 6307606522255876372}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &-3587171545291102765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Whenever some small part of you cries out that something is impossible .
+    . .
+  guid: 80ec8a144e521594e9f0d1dd64157db2
+  position: {x: 2561.56, y: 0}
+  child: {fileID: 924452656549784167}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &-3345410110606484463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: My child, I know it can be hard to move forwards through adverse times.
+  guid: 071272b6287de2f419c99b9515ad2474
+  position: {x: 2219.56, y: 0}
+  child: {fileID: -1799204333570829783}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &-1889019238877865657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Not just as kings . . . but as individuals.
+  guid: 0fb765ab181d3924897c60fa4413f054
+  position: {x: 2024, y: 0.00006167221}
+  child: {fileID: 95317046649182332}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &-1799204333570829783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: It can even be hard to move forwards during pleasant times as well.
+  guid: f5633ed907b74234994d82229b439ecb
+  position: {x: 2318, y: -0.0000042915344}
+  child: {fileID: -3697076635551093023}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &-1677943543121513039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Take my legacy, and shape it to your own design.
+  guid: 3d7a3ae58ef21e84e9644f1fcedf16f4
+  position: {x: 3150.56, y: 0}
+  child: {fileID: 3900661964610723311}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &-592550578193085096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I don't think so . . .
+  guid: 340fc6b5975e07d489d6d41a1d2ed3bc
+  position: {x: 1091, y: 76.99999}
+  child: {fileID: 3931966544091881608}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-411038190599070818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: It is our duty to take action, to create order in our own lives and the lives
+    of those around us.
+  guid: bab1d936e798b8d4abcdcd8f7daf00ba
+  position: {x: 1905.6775, y: 0.0000064373016}
+  child: {fileID: -1889019238877865657}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1719920062
+      Data2: 1160316040
+      Data3: 1522104494
+      Data4: 1229528022
+    Path: event:/empMed
+--- !u!114 &-295667653543008375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: I am proud and happy to hear it!
+  guid: e975a2f0bc3a79347a14761d672bcf27
+  position: {x: 1246, y: -76.99999}
+  child: {fileID: 9023187203934888947}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: Emperor-RoCEnd
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 7619819869633856246}
+  dialogues:
+  - {fileID: 7619819869633856246}
+  - {fileID: -7267228067397606930}
+  - {fileID: 6187275372469497646}
+  - {fileID: -8913271436050968103}
+  - {fileID: 35545491200372922}
+  - {fileID: 65117344558231698}
+  - {fileID: 4595603957969533845}
+  - {fileID: -7456829375936589904}
+  - {fileID: -592550578193085096}
+  - {fileID: 827644672930829706}
+  - {fileID: 9023187203934888947}
+  - {fileID: -295667653543008375}
+  - {fileID: -1799204333570829783}
+  - {fileID: -3697076635551093023}
+  - {fileID: 8920485623372852273}
+  - {fileID: 924452656549784167}
+  - {fileID: -3587171545291102765}
+  - {fileID: -411038190599070818}
+  - {fileID: -1889019238877865657}
+  - {fileID: 95317046649182332}
+  - {fileID: -3345410110606484463}
+  - {fileID: -3593123359829169493}
+  - {fileID: 1145124542496357757}
+  - {fileID: 3900661964610723311}
+  - {fileID: -1677943543121513039}
+  - {fileID: 3931966544091881608}
+  - {fileID: 8195945318901548872}
+  - {fileID: 2629664352761428569}
+  - {fileID: 6307606522255876372}
+--- !u!114 &35545491200372922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: I believe you are ready to inherit it, and all that it encompasses.
+  guid: b843cda7faa3f454c93cb7a87d55241e
+  position: {x: 702.98865, y: -0.0000059604645}
+  child: {fileID: -8913271436050968103}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &65117344558231698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: This crown, however, is not meant for me any longer.
+  guid: a1049d9bd5a90b94bb505019892c5bfd
+  position: {x: 580.67004, y: 0.0000019073486}
+  child: {fileID: 35545491200372922}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &95317046649182332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: . . .
+  guid: 3be95d5f2ded40c4682eeb66a4f97ef6
+  position: {x: 2122, y: -0.0000042915344}
+  child: {fileID: -3345410110606484463}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &827644672930829706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: Yes, I am!
+  guid: d57fc6e49dfa8214fb77a1744cd6397d
+  position: {x: 1091, y: -77}
+  child: {fileID: -295667653543008375}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &924452656549784167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: . . . remember that I am forever here with you, and that I love you.
+  guid: 22d634408b7d44f43a6d58d8c1b30100
+  position: {x: 2686, y: -0.0000038146973}
+  child: {fileID: 8920485623372852273}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &1145124542496357757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I will!
+  guid: 8de9d24b980bf714d8255d980a464841
+  position: {x: 3364.56, y: 0}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &2629664352761428569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: However, we must all make peace with the chaos and change around us.
+  guid: 12379d0b9e88d9143a0dba0d38cb42db
+  position: {x: 1778.56, y: 0}
+  child: {fileID: -411038190599070818}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1719920062
+      Data2: 1160316040
+      Data3: 1522104494
+      Data4: 1229528022
+    Path: event:/empMed
+--- !u!114 &3900661964610723311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Make this world and this life yours, as you desire!
+  guid: 579f46480c191a248b07e501e788e608
+  position: {x: 3266.56, y: 0}
+  child: {fileID: 1145124542496357757}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &3931966544091881608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Reagardless of your preparedness, it is your duty to do so.
+  guid: 1dceee4f6d317d346a81281151adb6d9
+  position: {x: 1521.56, y: 0}
+  child: {fileID: 8195945318901548872}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &4595603957969533845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Ah-haha! Thank you, dear child. I appreciate your efforts.
+  guid: 35e5aa79435bd7e4fabf2239658cdf57
+  position: {x: 442.49854, y: 0.0000019073486}
+  child: {fileID: 65117344558231698}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &6187275372469497646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: . . . *deep inhale* . . .
+  guid: 3ad1385062384a54fa8ba4e0b3ab7534
+  position: {x: 295.99985, y: -0.000012397766}
+  child: {fileID: 4595603957969533845}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &6307606522255876372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Now, go forth!
+  guid: 07fb429c0fee50142a8f40572ff7de14
+  position: {x: 3052.56, y: 0}
+  child: {fileID: -1677943543121513039}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &7619819869633856246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I've gathered the scattered pieces of your crown, and brought them back to
+    you.
+  guid: 24ca4de793a50bf49b8272b40f3acfa0
+  position: {x: 0, y: 0}
+  child: {fileID: -7267228067397606930}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &8195945318901548872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Having thrust you into such a position when you are yet so young was never
+    my life's intention . . .
+  guid: 2dee48e234ecf29429bfa64043d812bd
+  position: {x: 1650.6775, y: 0.00001001358}
+  child: {fileID: 2629664352761428569}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1719920062
+      Data2: 1160316040
+      Data3: 1522104494
+      Data4: 1229528022
+    Path: event:/empMed
+--- !u!114 &8920485623372852273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I love you too.
+  guid: 7a775fdad67aab9479e404a1366682b0
+  position: {x: 2808.56, y: 0}
+  child: {fileID: -3593123359829169493}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho
+--- !u!114 &9023187203934888947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Emperor
+  Text: Although . . .
+  guid: 018749ee1ed73e8439019fa32f057409
+  position: {x: 1390.2612, y: -77}
+  child: {fileID: 3931966544091881608}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1690798760
+      Data2: 1138892235
+      Data3: -953309798
+      Data4: 1835861150
+    Path: event:/empSho

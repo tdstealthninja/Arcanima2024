@@ -1,0 +1,1020 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8356406441046800599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: . . .
+  guid: 96ea2983548c8324eb2380b7440d41d4
+  position: {x: 1462.5209, y: -52.999992}
+  child: {fileID: -2976625613153008289}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-8261955848993262969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: Did the Flowers bring you to life?
+  guid: bd05e9991dde1544db74ab98930ae405
+  position: {x: 1868, y: 212.00002}
+  child: {fileID: -1694821779229808160}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-7918179100125679532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: The essence of this Realm lies within its geometry. It will serve as key
+    in your journey.
+  guid: 025930ab54929df4d87cbbb5b8a07fd9
+  position: {x: 3367.9995, y: 212}
+  child: {fileID: -22183194388061202}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1246763996
+      Data2: 1298252266
+      Data3: 1631491750
+      Data4: 1202677611
+    Path: event:/essMed
+--- !u!114 &-7369723557986132925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: As thanks for your Flowers, I bequeath this Gem unto you.
+  guid: 0c79c6d1b9db6d84aae7884c7529ac17
+  position: {x: 3224.9993, y: 212}
+  child: {fileID: -7918179100125679532}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &-6804787864500681940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Well, that was quite pleasant, wasn't it dear?
+  guid: a594a459c949bf54da9b58cbe181e3ac
+  position: {x: 2790.277, y: 39}
+  child: {fileID: 357957017958464594}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &-6752565452187553902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Carried by these Flowers, your emotions and wishes breathed new context and
+    "life" to my memory.
+  guid: 0f27080bc36d84f4f9e5da7e910c998c
+  position: {x: 2282.0005, y: 212}
+  child: {fileID: 2609792749136492165}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &-6692605511834961690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I'd, uh, love for you to have these.
+  guid: 16086a31a906ada46bec53a90eecdb82
+  position: {x: 946.8784, y: -529.32074}
+  child: {fileID: 9217561714483524102}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-5034783450187813113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: But truthfully, you are the one who animates me, my child. Then, and now.
+  guid: 9379dcc507df58b469e8277de5ad33a8
+  position: {x: 2526, y: 212}
+  child: {fileID: 1934741389181355376}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1246763996
+      Data2: 1298252266
+      Data3: 1631491750
+      Data4: 1202677611
+    Path: event:/essMed
+--- !u!114 &-4629624184416791558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bff3efa4cb2304f8b870783e80ff1d, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Whatever is the matter my child? At a loss for words, are you?
+  guid: f3c3adbc68417744893a41b46c79be7e
+  position: {x: 1727, y: 135}
+  child: {fileID: -8261955848993262969}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1246763996
+      Data2: 1298252266
+      Data3: 1631491750
+      Data4: 1202677611
+    Path: event:/essMed
+  options:
+  - {fileID: 1260219606109584073}
+  - {fileID: -8261955848993262969}
+--- !u!114 &-4498557075651776231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: . . .
+  guid: 7697041afeab8934faa576c16af8376b
+  position: {x: 407.8783, y: -529.32074}
+  child: {fileID: -676497212909147975}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-4450283403397962905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Whatever this statue was before is long gone.
+  guid: 9086ac87bdfcc634f8e04cb880a3f390
+  position: {x: 2151.0002, y: 212}
+  child: {fileID: -6752565452187553902}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &-4443202378086112857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I love you too.
+  guid: 6efe19676f770da46b76664ce193506a
+  position: {x: 4037, y: 134.99998}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &-3532367724314465004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: . . .
+  guid: 1b7b667543570a447afe627f4f0b2ac3
+  position: {x: 1308.6775, y: -0.0000023841858}
+  child: {fileID: -8356406441046800599}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-2976625613153008289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: . . .
+  guid: 3dac6aec98b8a9344b28c5c6371651ff
+  position: {x: 1598.0001, y: 165.50008}
+  child: {fileID: -4629624184416791558}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-2936486791409718833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: . . .
+  guid: 1c18537dc3885d84fa197f6017285e16
+  position: {x: 2408.277, y: 39}
+  child: {fileID: 8823847937220384287}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &-1997752413396749744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: To be quite honest, I'm not entirely sure of what to say either.
+  guid: 6d07b206437f8a14794a2bba9bbf0ff1
+  position: {x: 2151, y: 39.5}
+  child: {fileID: 4909043600679446663}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &-1694821779229808160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: The bounds of Life and Death are tenuous here.
+  guid: 458f2ee63d00eef4a960eb6324491bac
+  position: {x: 2032.8, y: 212}
+  child: {fileID: -4450283403397962905}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &-676497212909147975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: High Priestess
+  Text: Simply present the Flowers to her. There's nothing to fear.
+  guid: 661a706df68444d4e943c801d3dd3bac
+  position: {x: 522.74896, y: -325}
+  child: {fileID: 2143917685354686758}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 1017696764
+      Data2: 1224824846
+      Data3: -2113997399
+      Data4: 1746660483
+    Path: event:/prieSho
+--- !u!114 &-76620301072325371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Goodbye sweet, child.
+  guid: 9fbe4b372a41e534d941c9d9312ccd9c
+  position: {x: 3633.4, y: 212}
+  child: {fileID: 5114552876338900936}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &-22183194388061202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Unfortunately, I'm afraid our time together again is short-lived.
+  guid: 876d5a33765326c46971b527774e688f
+  position: {x: 3493.9407, y: 211.99994}
+  child: {fileID: -76620301072325371}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1246763996
+      Data2: 1298252266
+      Data3: 1631491750
+      Data4: 1202677611
+    Path: event:/essMed
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7c9b6a57509f4ea5a088e51339cfe, type: 3}
+  m_Name: EmpressStoryLevelAlpha
+  m_EditorClassIdentifier: 
+  rootDialogue: {fileID: 7980427183527745729}
+  dialogues:
+  - {fileID: 7980427183527745729}
+  - {fileID: 1142259305127156292}
+  - {fileID: 2202351609972965543}
+  - {fileID: -676497212909147975}
+  - {fileID: -4498557075651776231}
+  - {fileID: -6692605511834961690}
+  - {fileID: 9031478926294144943}
+  - {fileID: 2143917685354686758}
+  - {fileID: 9217561714483524102}
+  - {fileID: 1552224465534915638}
+  - {fileID: -8356406441046800599}
+  - {fileID: -3532367724314465004}
+  - {fileID: -2976625613153008289}
+  - {fileID: -4629624184416791558}
+  - {fileID: 1260219606109584073}
+  - {fileID: -8261955848993262969}
+  - {fileID: 1934741389181355376}
+  - {fileID: -76620301072325371}
+  - {fileID: -22183194388061202}
+  - {fileID: -7918179100125679532}
+  - {fileID: -7369723557986132925}
+  - {fileID: -4443202378086112857}
+  - {fileID: 4124250827822815826}
+  - {fileID: 5114552876338900936}
+  - {fileID: -1997752413396749744}
+  - {fileID: 8759249390051864735}
+  - {fileID: 357957017958464594}
+  - {fileID: -6804787864500681940}
+  - {fileID: 4896055172821220493}
+  - {fileID: 8823847937220384287}
+  - {fileID: -2936486791409718833}
+  - {fileID: 4909043600679446663}
+  - {fileID: -1694821779229808160}
+  - {fileID: -5034783450187813113}
+  - {fileID: 2609792749136492165}
+  - {fileID: -6752565452187553902}
+  - {fileID: -4450283403397962905}
+--- !u!114 &357957017958464594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Yes, it was.
+  guid: 1ef55ac39ca5a894fa1631636647034e
+  position: {x: 2919.479, y: 38.999977}
+  child: {fileID: 1934741389181355376}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &1142259305127156292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: . . .
+  guid: a6740026d6b1c5243b228abf0315f24b
+  position: {x: 181.87837, y: -652.32074}
+  child: {fileID: 2202351609972965543}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &1260219606109584073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: I'm not sure what to say. . .
+  guid: 4c0a39dd136529147ab265070a0fec81
+  position: {x: 1867.9998, y: 38.499973}
+  child: {fileID: 8759249390051864735}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 748944079
+      Data2: 1333514291
+      Data3: -1910061921
+      Data4: -605920894
+    Path: event:/magSho
+--- !u!114 &1552224465534915638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: What a wonderful gift from an ever so wonderful child.
+  guid: 8233beeb3b99f1648ac3293d6d44f4b0
+  position: {x: 1193.355, y: 126.99999}
+  child: {fileID: -3532367724314465004}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &1934741389181355376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: . . .
+  guid: 37139439cf7467340a04b64b36716825
+  position: {x: 3087.9993, y: 212}
+  child: {fileID: -7369723557986132925}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &2143917685354686758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: OK . . .
+  guid: 9e818c54e216ae64289ca1de37364ab6
+  position: {x: 644.87836, y: -529.32074}
+  child: {fileID: 9031478926294144943}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &2202351609972965543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: Well, what do we do? What do we say?
+  guid: 329b3ff0aea26214484a55a0ab80f73b
+  position: {x: 309.8783, y: -652.32074}
+  child: {fileID: -4498557075651776231}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &2609792749136492165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: So in a way, I suppose the Flowers played a part in bringing me to life.
+  guid: a3faf167739bc7f42987eb340af630a4
+  position: {x: 2408, y: 212}
+  child: {fileID: -5034783450187813113}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1246763996
+      Data2: 1298252266
+      Data3: 1631491750
+      Data4: 1202677611
+    Path: event:/essMed
+--- !u!114 &4124250827822815826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: I love you.
+  guid: 377590713198e434e8567410215538eb
+  position: {x: 3914.9993, y: 212}
+  child: {fileID: -4443202378086112857}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &4896055172821220493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Moon
+  Text: . . .
+  guid: a38694f78145f8d45b36ec747d524919
+  position: {x: 2676.277, y: -62.00003}
+  child: {fileID: -6804787864500681940}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &4909043600679446663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Let us enjoy a moment together in silence, then.
+  guid: f7f3ac4ca6ff66d43bb997d442c7157f
+  position: {x: 2282.0005, y: 39.999977}
+  child: {fileID: -2936486791409718833}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &5114552876338900936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: Put trust and faith in yourself, and know I am with you always.
+  guid: 175ddfc1d8947484aaa41a1436f1f8fe
+  position: {x: 3779.9993, y: 212}
+  child: {fileID: 4124250827822815826}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: -1246763996
+      Data2: 1298252266
+      Data3: 1631491750
+      Data4: 1202677611
+    Path: event:/essMed
+--- !u!114 &7980427183527745729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b5aae85c1af444f9df657b547b9ad9, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: My, my . . .
+  guid: 67a11d1965132764e86956877525b07f
+  position: {x: 1034.2876, y: 127.00004}
+  child: {fileID: 1552224465534915638}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &8759249390051864735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: No, I suppose you wouldn't, would you.
+  guid: a19a981d505f1fb45b8d0cdb513c5eda
+  position: {x: 2033, y: 38.999996}
+  child: {fileID: -1997752413396749744}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
+--- !u!114 &8823847937220384287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: . . .
+  guid: b0038d15c99d45a4b8aad954edd2d3d0
+  position: {x: 2550.277, y: 1}
+  child: {fileID: 4896055172821220493}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &9031478926294144943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Fool
+  Text: Uh hello, its been a while.
+  guid: 241335ce5d7a338429945c9988b3d9da
+  position: {x: 794.87836, y: -529.32074}
+  child: {fileID: -6692605511834961690}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 784103201
+      Data2: 1239753846
+      Data3: -1878942286
+      Data4: -1335628625
+    Path: event:/mooSho
+--- !u!114 &9217561714483524102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609034f72964ae94c9fa1f4a10ca90ec, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Name: The Empress
+  Text: My, my . . .
+  guid: 4713e5ffbb72c5e4c90a8e791a95ca7a
+  position: {x: 1064.8784, y: -402.32074}
+  child: {fileID: 0}
+  objectsToExplain: []
+  uiToExplain: {fileID: 0}
+  dialogueSound:
+    Guid:
+      Data1: 349237337
+      Data2: 1173883177
+      Data3: 1171297432
+      Data4: -224187002
+    Path: event:/essSho
